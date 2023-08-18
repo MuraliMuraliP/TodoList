@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Greeting from './component/Greeting';
+import Mybutton from './component/Mybutton';
+import TaskList from './component/TaskList';
+import TicTac from './components/TicTac';
+import TicTacToe from './components/TicTacTeo';
+import TicTacToe1 from './components/TicTacToe1';
+//import ChildComponent from './component/ParentComponent';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {/*
+    <Greeting />
+     <Mybutton/>
+     <TaskList/>
+     <TicTac/>
+    */}  
+    <TicTacToe1/>
     </div>
   );
 }
